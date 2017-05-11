@@ -38,6 +38,9 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.6'
+  gem 'capybara', '~> 2.14'
+  gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
 end
 
 group :development do
