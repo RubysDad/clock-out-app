@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ClockOut</title>
+    <title>Clock Out</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="container">
+  <body>
     
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-12">
+  		  <%= render "shared/nav" %>
     <%= yield %>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
