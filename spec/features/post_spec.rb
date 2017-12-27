@@ -4,7 +4,7 @@ describe 'navigate' do
   let(:user) { FactoryGirl.create(:user) }
   
   let(:post) do 
-    Post.create(date: Date.today, rationale: "Rationale", user_id: user.id)
+    Post.create(date: Date.today, rationale: "Rationale", user_id: user.id, overtime_request: 3.5)
   end
   
   before do     
@@ -58,7 +58,7 @@ describe 'navigate' do
       delete_user = FactoryGirl.create(:user)
       login_as(delete_user, :scope => :user)
       
-      post_to_delete = Post.create(date: Date.today, rationale: 'asdf', user_id: delete_user.id)
+      post_to_delete = Post.create(date: Date.today, rationale: 'asdf', user_id: delete_user.id, overtime_request: 3.5)
 
       visit posts_path
       
