@@ -45,6 +45,8 @@ group :development, :test do
   gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
   gem 'factory_girl_rails', '~> 4.9'
   gem 'twilio-ruby', '~> 5.6'
+  gem 'dotenv-rails', :groups => [:development, :test]
+
 end
 
 group :development do
