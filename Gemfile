@@ -44,6 +44,7 @@ group :development, :test do
   gem 'capybara', '~> 2.14'
   gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
   gem 'factory_girl_rails', '~> 4.9'
+  gem 'twilio-ruby', '~> 5.6'
 end
 
 group :development do
