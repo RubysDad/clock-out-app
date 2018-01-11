@@ -46,6 +46,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.9'
   gem 'twilio-ruby', '~> 5.6'
   gem 'dotenv-rails', :groups => [:development, :test]
+  gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 end
 
