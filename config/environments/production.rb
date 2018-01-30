@@ -43,5 +43,5 @@ Rails.application.configure do
 
   config.action_mailer.perform_deliveries = true
   
-  config.action_mailer.default_url_options = { :host => "heavyladen.herokuapp.com" }
+  config.action_mailer.default_url_options = { :host => "heavyladen.herokuapp.com", :protocol => 'http' }
 end
