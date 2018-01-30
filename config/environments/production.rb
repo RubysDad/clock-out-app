@@ -40,4 +40,5 @@ Rails.application.configure do
   config.assets.digest = true
   
   config.action_mailer.smtp_settings = { port: 2525 }
+  config.action_mailer.delivery_method = :smtp
 end
