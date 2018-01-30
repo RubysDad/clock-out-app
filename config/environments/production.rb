@@ -35,11 +35,9 @@ Rails.application.configure do
   config.serve_static_assets = true
   config.assets.digest = true
   
-  config.action_mailer.smtp_settings = { port: 2525 }
-  
   config.action_mailer.perform_caching = false
 
   config.action_mailer.perform_deliveries = true
   
-  config.action_mailer.default_url_options = { :host => "heavyladen.herokuapp.com", :protocol => 'http' }
+  config.action_mailer.default_url_options = { :host => "heavyladen.herokuapp.com" }
 end
