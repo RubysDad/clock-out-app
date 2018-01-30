@@ -39,5 +39,5 @@ Rails.application.configure do
   config.serve_static_assets = true
   config.assets.digest = true
   
-  config.action_mailer.smtp_settings = { port: 25 }
+  config.action_mailer.smtp_settings = { port: 2525 }
 end
