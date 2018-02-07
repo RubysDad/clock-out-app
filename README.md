@@ -6,3 +6,6 @@ Enterprise application using Rails 5.
 - Pundit for permissons structure
 - email automation
 - Administrate gem
+- Heroku scheduler
+- Twilio
+- SparkPost

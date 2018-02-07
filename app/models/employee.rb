@@ -1,4 +1,4 @@
 class Employee < User
-  
+
   
 end
